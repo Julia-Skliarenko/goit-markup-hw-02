@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -27,8 +29,8 @@ ul {
 /*! ----------------------HEADER---------------------------- */
 
 .header-logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4D5AE5 ;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -37,13 +39,7 @@ ul {
 }
 
 .header-logo-color {
-color: #4D5AE5;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+color: #2E2F42;
 }
 
 .header-menu-link {
@@ -73,6 +69,7 @@ color: #4D5AE5;
 
 .header-address {
     font-style: normal;
+    list-style: none;
 }
 
 /* -------------------------HERO------------------------ */
@@ -98,8 +95,16 @@ color: #4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: #4D5AE5;
 }
 
+.hero-buy-btn:hover {
+    background-color: #404BBF;
+}
+
+.hero-buy-btn:focus {
+    background-color: #404BBF;
+}
 /*? ---------------------DESCRIPTION----------------------- */
 
 .description {
@@ -124,7 +129,7 @@ color: #4D5AE5;
 /*! ---------------------------TEAM------------------------------- */
 
 .team {
-    background: #F4F4FD;
+    background: #FFFFFF;
 }
 
 .team-title {
@@ -188,8 +193,8 @@ color: #4D5AE5;
 }
 
 .footer-logo {
-color: #F4F4FD;
-    font-family: Raleway;
+color: #4D5AE5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -198,19 +203,19 @@ color: #F4F4FD;
 }
 
 .footer-logo-color {
-    color: #4D5AE5;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    color: #F4F4FD;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-text {
     color: #F4F4FD;
-        font-size: 16px;;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
