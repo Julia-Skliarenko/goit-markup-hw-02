@@ -12,20 +12,6 @@ ul {
     list-style: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-
 /*! ----------------------HEADER---------------------------- */
 
 .header-logo {
@@ -56,6 +42,14 @@ color: #2E2F42;
 
 .header-menu-link:focus {
     color: #404BBF;
+}
+
+.header-contacts-link:hover {
+    color: #404bbf;
+}
+
+.header-contacts-link:focus {
+    color: #404bbf;
 }
 
 /*? -------------------------ADRES------------------------ */
@@ -129,7 +123,7 @@ color: #2E2F42;
 /*! ---------------------------TEAM------------------------------- */
 
 .team {
-    background: #FFFFFF;
+    background: #F4F4FD;
 }
 
 .team-title {
@@ -140,6 +134,10 @@ color: #2E2F42;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .team-subtitle {
